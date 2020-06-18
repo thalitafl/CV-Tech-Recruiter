@@ -236,4 +236,20 @@ section:last-child {
 }
 /* Responsividade */
 
-@media all and (min-width: 602px) and (max-width:)
+/* médio */
+@media all and (min-width: 602px) and (max-width:900px) {
+  #avatar {
+    display: none;
+  }
+}
+
+/* pequeno */
+
+@media all and (max-width:601px) {
+  #cv{
+    width: 95%;
+    margin: 10px auto;
+    min-width: 280px;
+    padding: 10px;
+  }
+}
