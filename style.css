@@ -234,5 +234,6 @@ section:last-child {
 }
 
 }
+/* Responsividade */
 
-
+@media all and (min-width: 602px) and (max-width:)
